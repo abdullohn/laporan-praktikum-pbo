@@ -16,7 +16,7 @@ Tidak gampang Tidak susah, santuy!
 Didalam percobaan ini, kita akan mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut. 
 
 Hasil :
-![p1j1](img/p1j1.png)
+![p1j1](img/p1j1.PNG)
 
 Source Code :
 Source code ![sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
