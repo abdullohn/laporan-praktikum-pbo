@@ -16,6 +16,7 @@ Tidak gampang Tidak susah, santuy!
 Didalam percobaan ini, kita akan mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut. 
 
 Hasil :
+
 ![p1j1](img/p1j1.PNG)
 
 Source Code :
