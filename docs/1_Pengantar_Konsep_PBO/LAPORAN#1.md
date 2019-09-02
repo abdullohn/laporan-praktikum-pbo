@@ -19,7 +19,7 @@ Hasil :
 ![p1j1](img/p1j1.PNG)
 
 Source Code :
-Source code ![sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
+Source code [sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
 
 Source code main ![sc2j1](../../src/1_Pengantar_Konsep_PBO/sc2j1.java)
 
