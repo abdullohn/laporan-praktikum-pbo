@@ -71,7 +71,9 @@ bentuk, atau menjelma menjadi bentuk-bentuk lain.
 ## Tugas
 
 Hasil :
+
 ![t1j1](img/t1j1.PNG) 
+
 ![t2j1](img/t2j1.PNG)
 
 Source code : ![t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) ![t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
