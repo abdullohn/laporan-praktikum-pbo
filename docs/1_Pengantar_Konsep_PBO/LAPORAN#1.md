@@ -33,6 +33,7 @@ nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung.
 
 Hasil :
 ![p2j1](img/p2j1.PNG)
+
 ![p22j1](img/p22j1.PNG)
 
 Source Code :
@@ -68,7 +69,9 @@ bentuk, atau menjelma menjadi bentuk-bentuk lain.
 
 ## Tugas
 
-Hasil : ![t1j1](img/t1j1.PNG) ![t2j1](img/t2j1.PNG)
+Hasil :
+![t1j1](img/t1j1.PNG) 
+![t2j1](img/t2j1.PNG)
 
 Source code : ![t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) ![t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
 
