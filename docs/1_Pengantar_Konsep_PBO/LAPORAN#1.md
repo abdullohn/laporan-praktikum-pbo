@@ -32,6 +32,7 @@ sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class S
 nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung. 
 
 Hasil :
+
 ![p2j1](img/p2j1.PNG)
 
 ![p22j1](img/p22j1.PNG)
