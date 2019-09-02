@@ -21,7 +21,7 @@ Hasil :
 Source Code :
 Source code [sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
 
-Source code main ![sc2j1](../../src/1_Pengantar_Konsep_PBO/sc2j1.java)
+Source code main [sc2j1](../../src/1_Pengantar_Konsep_PBO/sc2j1.java)
 
 ### Percobaan 2
 
@@ -38,9 +38,9 @@ Hasil :
 ![p22j1](img/p22j1.PNG)
 
 Source Code :
-Source code ![sc3j1](../../src/1_Pengantar_Konsep_PBO/sc3j1.java)
+Source code [sc3j1](../../src/1_Pengantar_Konsep_PBO/sc3j1.java)
 
-Source code main ![sc4j1](../../src/1_Pengantar_Konsep_PBO/sc4j1.java)
+Source code main [sc4j1](../../src/1_Pengantar_Konsep_PBO/sc4j1.java)
 
 ## Pertanyaan
 
@@ -76,7 +76,7 @@ Hasil :
 
 ![t2j1](img/t2j1.PNG)
 
-Source code : ![t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) ![t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
+Source code : [t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) [t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
 
 ## Kesimpulan
 
