@@ -32,8 +32,8 @@ sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class S
 nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung. 
 
 Hasil :
-![p2j1](img/p2j1.png)
-![p22j1](img/p22j1.png)
+![p2j1](img/p2j1.PNG)
+![p22j1](img/p22j1.PNG)
 
 Source Code :
 Source code ![sc3j1](../../src/1_Pengantar_Konsep_PBO/sc3j1.java)
@@ -62,13 +62,13 @@ bentuk, atau menjelma menjadi bentuk-bentuk lain.
 
 4. Merek, kecepatan, gear
 
-5.  ![p11j1](img/p11j1.png) 
-    ![s1j1](img/s1j1.png)
+5.  ![p11j1](img/p11j1.PNG) 
+    ![s1j1](img/s1j1.PNG)
 6.  Karena sepdagunung merupakan warisan dari class sepeda jadi tinggal dipanggil dengan commands extends
 
 ## Tugas
 
-Hasil : ![t1j1](img/t1j1.png) ![t2j1](img/t2j1.png)
+Hasil : ![t1j1](img/t1j1.PNG) ![t2j1](img/t2j1.PNG)
 
 Source code : ![t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) ![t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
 
