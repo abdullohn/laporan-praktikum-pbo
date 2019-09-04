@@ -8,7 +8,7 @@ Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
 
 ## Ringkasan Materi
 
-Tidak gampang Tidak susah, santuy!
+Pemrograman Berorientasi Objek bukan merupakan bahasa pemrograman, tetapi merupakan sebuah cara berpikir baru dalam pembuatan sebuah program. Pemerograman berorientasi objek menitikberatkan pada identifikasi objek-objek yang terlibat dalam sebuah program dan bagaimana objek-objek tersebut berinteraksi.
 
 ## Percobaan
 
