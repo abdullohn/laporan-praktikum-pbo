@@ -8,21 +8,19 @@ Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
 
 ## Ringkasan Materi
 
-Pemrograman Berorientasi Objek bukan merupakan bahasa pemrograman, tetapi merupakan sebuah cara berpikir baru dalam pembuatan sebuah program. Pemerograman berorientasi objek menitikberatkan pada identifikasi objek-objek yang terlibat dalam sebuah program dan bagaimana objek-objek tersebut berinteraksi.
-
+Pemrograman Berorientasi Objek bukan merupakan bahasa pemrograman tetapi merupakan sebuah cara berpikir baru dalam pembuatan sebuah program. Pemerograman berorientasi objek menitikberatkan pada identifikasi objek-objek yang terlibat dalam sebuah program dan bagaimana objek-objek tersebut berinteraksi.
 ## Percobaan
 
 ### Percobaan 1
 Didalam percobaan ini, kita akan mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut. 
 
 Hasil :
-
 ![p1j1](img/p1j1.PNG)
 
 Source Code :
-Source code [sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
+Source code ![sc1j1](../../src/1_Pengantar_Konsep_PBO/sc1j1.java)
 
-Source code main [sc2j1](../../src/1_Pengantar_Konsep_PBO/sc2j1.java)
+Source code main ![sc2j1](../../src/1_Pengantar_Konsep_PBO/sc2j1.java)
 
 ### Percobaan 2
 
@@ -33,15 +31,13 @@ sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class S
 nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung. 
 
 Hasil :
-
 ![p2j1](img/p2j1.PNG)
-
 ![p22j1](img/p22j1.PNG)
 
 Source Code :
-Source code [sc3j1](../../src/1_Pengantar_Konsep_PBO/sc3j1.java)
+Source code ![sc3j1](../../src/1_Pengantar_Konsep_PBO/sc3j1.java)
 
-Source code main [sc4j1](../../src/1_Pengantar_Konsep_PBO/sc4j1.java)
+Source code main ![sc4j1](../../src/1_Pengantar_Konsep_PBO/sc4j1.java)
 
 ## Pertanyaan
 
@@ -71,13 +67,9 @@ bentuk, atau menjelma menjadi bentuk-bentuk lain.
 
 ## Tugas
 
-Hasil :
+Hasil : ![t1j1](img/t1j1.PNG) ![t2j1](img/t2j1.PNG)
 
-![t1j1](img/t1j1.PNG) 
-
-![t2j1](img/t2j1.PNG)
-
-Source code : [t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) [t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
+Source code : ![t1j1](../../src/1_Pengantar_Konsep_PBO/t1j1.java) ![t2j1](../../src/1_Pengantar_Konsep_PBO/t2j1.java)
 
 ## Kesimpulan
 

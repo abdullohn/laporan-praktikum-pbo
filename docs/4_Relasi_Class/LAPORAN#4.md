@@ -201,7 +201,15 @@ Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasik
 
 Jawab:
 
+Link kode program main : [Owner1841720209Abdulloh.java](../../src/4_Relasi_Class/Owner1841720209Abdulloh.java)
 
+Link kode program main : [Order1841720209Abdulloh.java](../../src/4_Relasi_Class/Order1841720209Abdulloh.java)
+
+Link kode program main : [Kursi1841720209Abdulloh (2).java](../../src/4_Relasi_Class/Kursi1841720209Abdulloh (2).java)
+
+Link kode program main : [Customer1841720209Abdulloh.java](../../src/4_Relasi_Class/Customer1841720209Abdulloh.java)
+
+Link kode program main : [MainTugas1841720209Abdulloh.java](../../src/4_Relasi_Class/MainTugas1841720209Abdulloh.java)
 
 ## Kesimpulan
 
