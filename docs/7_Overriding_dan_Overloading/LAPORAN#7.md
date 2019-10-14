@@ -17,19 +17,19 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu :
 
 Penjelasan : Praktikum membahas Overriding dan Overloading
 
-![Karyawan](img/Karyawan1841720209Abdulloh.png)
+![Karyawan](img/Karyawan1841720209Abdulloh.PNG)
 
 Link kode program : [Karyawan](../../src/7_Overriding_dan_Overloading/Karyawan1841720209Abdulloh.java)
 
-![Staff](img/Staff1841720209Abdulloh.png)
+![Staff](img/Staff1841720209Abdulloh.PNG)
 
 Link kode program : [Staff](../../src/7_Overriding_dan_Overloading/Staff1841720209Abdulloh.java)
 
-![Manager](img/Manager1841720209Abdulloh.png)
+![Manager](img/Manager1841720209Abdulloh.PNG)
 
 Link kode program : [Manager](../../src/7_Overriding_dan_Overloading/Manager1841720209Abdulloh.java)
 
-![Utama](img/Utama1841720209Abdulloh.png)
+![Utama](img/Utama1841720209Abdulloh.PNG)
 
 Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Utama1841720209Abdulloh.java)
 
@@ -39,7 +39,7 @@ Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Utama18417202
 ### Latihan 1
 
 * Dari source coding diatas terletak dimanakah overloading?
-> ![Latihan1](img/Latihan1.1841720209Abdulloh.png)
+> ![Latihan1](img/Latihan1.1841720209Abdulloh.PNG)
 
 * Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
 > Jumlah parameter yang berbeda akan ada 2 dan untuk yang meng-overloading ada 3
@@ -49,7 +49,7 @@ Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Utama18417202
 ### Latihan 2
 
 * Dari source coding diatas terletak dimanakah overloading?
-> ![Latihan2](img/Latihan2.1841720209Abdulloh.png)
+> ![Latihan2](img/Latihan2.1841720209Abdulloh.PNG)
 
 * Jika terdapat overloading ada berapa tipe parameter yang berbeda?
 > Tipe parameter yang berbeda akan ada 2 
@@ -59,7 +59,7 @@ Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Utama18417202
 ### Latihan 3
 
 * Dari source coding diatas terletak dimanakah overriding?
-> ![Latihan3](img/Latihan3.1841720209Abdulloh.png)
+> ![Latihan3](img/Latihan3.1841720209Abdulloh.PNG)
 
 * Jabarkanlah apabila source coding diatas jika terdapat overriding?
 >  Pada class ikan terdapat sebuah fungsi dengan nama swim dan tidak memiliki parameter, dan di buat sebuah class lain yang meng-extend class ikan dengan nama piranha, pada class tersebut terdapat pula sebuah fungsi bernama swin dan pula tidak memiliki parameter, maka pada saat pemanggilan fungsi swim dari class piranha pada class main, fungsi swim akan meng-override fungsi swim yang ada pada fungsi ikan sehingga akan memunculkan output "piranha makan daging".
@@ -69,30 +69,30 @@ Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Utama18417202
 ## Tugas
 ### Tugas 1
 
-> ![Segitiga](img/Segitiga1841720209Abdulloh.png)
+> ![Segitiga](img/Segitiga1841720209Abdulloh.PNG)
 
 Link kode program : [Segitiga](../../src/7_Overriding_dan_Overloading/Segitiga1841720209Abdulloh.java)
 
-> ![Main Segitiga](img/MainSegitiga1841720209Abdulloh.png)
+> ![Main Segitiga](img/MainSegitiga1841720209Abdulloh.PNG)
 
 Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/MainSegitiga1841720209Abdulloh.java)
 
 
 ### Tugas 2
 
-> ![Manusia](img/Manusia1841720209Abdulloh.png)
+> ![Manusia](img/Manusia1841720209Abdulloh.PNG)
 
 Link kode program : [Segitiga](../../src/7_Overriding_dan_Overloading/Manusia1841720209Abdulloh.java)
 
-> ![Dosen](img/Dosen1841720209Abdulloh.png)
+> ![Dosen](img/Dosen1841720209Abdulloh.PNG)
 
 Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Dosen1841720209Abdulloh.java)
 
-> ![Mahasiswa](img/Mahasiswa1841720209Abdulloh.png)
+> ![Mahasiswa](img/Mahasiswa1841720209Abdulloh.PNG)
 
 Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/Mahasiswa1841720209Abdulloh.java)
 
-> ![Main](img/MainTugas21841720209Abdulloh.png)
+> ![Main](img/MainTugas21841720209Abdulloh.PNG)
 
 Link kode program : [Utama](../../src/7_Overriding_dan_Overloading/MainTugas21841720209Abdulloh.java)
 
