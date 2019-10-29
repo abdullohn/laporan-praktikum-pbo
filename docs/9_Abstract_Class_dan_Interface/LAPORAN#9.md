@@ -97,9 +97,9 @@ Jawab:
 
 4. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini:
 
->![1](img/Pertanyaan2d.png)
+>![6](img/Pertanyaan2d.PNG)
 
->![1](img/Pertanyaan2d2.png)
+>![5](img/Pertanyaan2d2.PNG)
 
 
 ## Praktikum 3
