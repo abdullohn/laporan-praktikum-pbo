@@ -13,7 +13,7 @@ Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
 
 #### Class Employee, IPayable, InternshipEmployee, PermanentEmployee, ElectricityBill, Tester 1
 
-Penjelasan : 
+Penjelasan : Di percobaan pertama ini kita belajar akan dasar polimorfisme dengan membuat class Employee, IPayable, InternshipEmployee, PermanentEmployee, ElectricityBill, dan mainnya adaalah Tester 1 dan latihan untuk memecahkan studi kasus
 
 ![Employee](img/Employee.PNG)
 
@@ -89,7 +89,7 @@ Polimorfisme mengizinkan kelas induk untuk mendefinisikan sebuah method general 
 
 #### Class Tester 2
 
-Penjelasan : 
+Penjelasan : Apa itu VMI? Virtual method invocation terjadi ketika ada pemanggilan overriding method dari suatu objek polimorfisme. Disebut virtual karena antara method yang dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.
 
 ![Tester2](img/Tester2.PNG)
 
@@ -121,7 +121,7 @@ Jawab:
 
 #### Class Tester 3
 
-Penjelasan : 
+Penjelasan : Dengan adanya konsep polimorfisme, maka variabel array bisa dibuat heterogen. Artinya di dalam array tersebut bisa berisi berbagai macam objek yang berbeda. Pengimplementasian seperti berikut
 
 ![Tester3](img/Tester3.PNG)
 
@@ -150,11 +150,13 @@ Jawab:
 
 > Karena eBill bukan termasuk Class turunan dari Class Employee
 
-##  Percobaan 4 – Argumen polimorfisme, instanceod dan casting objek
+##  Percobaan 4 – Argumen polimorfisme, instanceof dan casting objek
+
+Penjelasan : Polimorfisme bisa diterapkan pada argument suatu method. Tujuannya agar method tersebut bisa menerima nilai argument dari berbagai bentuk objek. Kemudian Operator instanceof bisa digunakan untuk mengecek apakah suatu objek merupakan hasil instansiasi dari suatu class tertentu. Hasil dari instanceof berupa nilai boolean. Yang terakhir Casting objek digunakan untuk mengubah tipe dari suatu objek. Jika ada suatu objek dari subclass kemudian tipenya diubah ke superclass, maka hal ini termasuk ke upcasting. 
 
 ![Owner](img/Owner.PNG)
 
-Link kode program : [Link_Tester3](../../src/10_Polimorfisme/Tester31841720209Abdulloh.java)
+Link kode program : [Link_Owner](../../src/10_Polimorfisme/Owner1841720209Abdulloh.java)
 
 ![Tester4](img/Tester4.PNG)
 
@@ -192,11 +194,46 @@ Jawab:
 
 ## TUGAS
 
+Penjelasan : Tugas ini merupakan implementasi dari praktikum diatas dengan ketentuan yang berlaku maka jadilah seperti dibawah ini :
+
+![Barrier](img/Barrier.PNG)
+
+Link kode program : [Link_Barrier](../../src/10_Polimorfisme/Barrier1841720209Abdulloh.java)
+
+![Destroyable](img/Destroyable.PNG)
+
+Link kode program : [Link_Destroyable](../../src/10_Polimorfisme/Destroyable1841720209Abdulloh.java)
+
+![JumpingZombie](img/JumpingZombie.PNG)
+
+Link kode program : [Link_JumpingZombie](../../src/10_Polimorfisme/JumpingZombie1841720209Abdulloh.java)
+
+![Plant](img/Plant.PNG)
+
+Link kode program : [Link_Plant](../../src/10_Polimorfisme/Plant1841720209Abdulloh.java)
+
+![Tester](img/TesterTugas.PNG)
+
+Link kode program : [Link_Tester](../../src/10_Polimorfisme/Tester1841720209Abdulloh.java)
+
+![WalkingZombie](img/WalkingZombie.PNG)
+
+Link kode program : [Link_WalkingZombie](../../src/10_Polimorfisme/WalkingZombie1841720209Abdulloh.java)
+
+![Zombie](img/Zombie.PNG)
+
+Link kode program : [Link_Zombie](../../src/10_Polimorfisme/Zombie1841720209Abdulloh.java)
+
 
 ## Kesimpulan
 
-* Perkenalan dan percobaan Abstract dan Interface
-* Mengerti lebih tentang implmentasi
+* Polimorfisme merupakan suatu konsep yang menyatakan sesuatu yang sama dapat memiliki berbagai bentuk dan perilaku berbeda. Istilah ini sendiri berarti “Mempunyai banyak bentuk”.
+
+* Polimorfisme merupakan kemampuan objek-objek yang berbeda kelas namun terkait dalam pewarisan untuk merespon secara berbeda terhadap suatu pesan yang sama. 
+
+* Polimorfisme ada banyak diantaranya yang kita pelajari ialah Bentuk dasar polimorfisme, Virtual method invocation, Heterogenous Collection, Argumen polimorfisme, instanceof dan casting objek
+
+* Polimorfisme juga dapat dikatakan kemampuan sebuah objek untuk memutuskan method mana yang akan diterapkan padanya, tergantung letak objek tersebut pada jenjang pewarisan.
 
 ## Pernyataan Diri
 
