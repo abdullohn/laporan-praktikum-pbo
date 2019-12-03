@@ -23,7 +23,7 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
         initComponents();
     }
     
-    public void kosongkanForm(){
+    public void kosongkanFormAbdulloh(){
         txtIdBuku.setText("0");
         cmbKategori.setSelectedItem(0);
         txtJudul.setText("");
@@ -31,7 +31,7 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
         txtPenerbit.setText("");
     }
     
-    public void tampilkanData()
+    public void tampilkanDataAbdulloh()
     {
         String[] kolom = {"ID", "Kategori", "Judul", "Penulis", "Penerbit"};
         ArrayList<Buku1841720209Abdulloh> list = new Buku1841720209Abdulloh().getAllAbdulloh();
@@ -45,6 +45,24 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
             rowData[2] = list.get(i).getmJudulAbdulloh();
             rowData[3] = list.get(i).getmPenulisAbdulloh();
             rowData[4] = list.get(i).getmPenerbitAbdulloh();
+            
+            ((DefaultTableModel)tblBuku.getModel()).addRow(rowData);
+        }
+    }
+    
+    public void cariAbdulloh(String keyword){
+        String[] kolom = {"ID", "Kategori", "Judul", "Penulis", "Penerbit"};
+        ArrayList<Buku1841720209Abdulloh> list = new Buku1841720209Abdulloh().search(keyword);
+        Object rowData[] = new Object[5];
+        
+        tblBuku.setModel(new DefaultTableModel(new Object[][]{}, kolom));
+        
+        for(Buku1841720209Abdulloh buku : list){
+            rowData[0] = buku.getmIdbukuAbdulloh();
+            rowData[1] = buku.getmKategoriAbdulloh().getmNamaAbdulloh();
+            rowData[2] = buku.getmJudulAbdulloh();
+            rowData[3] = buku.getmPenulisAbdulloh();
+            rowData[4] = buku.getmPenerbitAbdulloh();
             
             ((DefaultTableModel)tblBuku.getModel()).addRow(rowData);
         }
@@ -93,6 +111,17 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tblBuku);
 
         cmbKategori.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbKategori.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbKategoriActionPerformed(evt);
+            }
+        });
+
+        txtIdBuku.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdBukuActionPerformed(evt);
+            }
+        });
 
         txtPenulis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,12 +130,32 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
         });
 
         btnSimpan.setText("Simpan");
+        btnSimpan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSimpanActionPerformed(evt);
+            }
+        });
 
         btnTambahBaru.setText("Tambah baru");
+        btnTambahBaru.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTambahBaruActionPerformed(evt);
+            }
+        });
 
         btnHapus.setText("Hapus");
+        btnHapus.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnHapusActionPerformed(evt);
+            }
+        });
 
         btnCari.setText("Cari");
+        btnCari.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCariActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("ID Buku");
 
@@ -141,10 +190,9 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(btnTambahBaru, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 112, Short.MAX_VALUE)
                                     .addComponent(btnSimpan, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
-                                        .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
@@ -200,6 +248,44 @@ public class FrmBuku1841720209Abdulloh extends javax.swing.JFrame {
     private void txtPenulisActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
     }                                          
+
+    private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        Buku1841720209Abdulloh buku = new Buku1841720209Abdulloh();
+        buku.setmIdbukuAbdulloh(Integer.parseInt(txtIdBuku.getText()));
+        buku.setmKategoriAbdulloh((Kategori1841720209Abdulloh)cmbKategori.getSelectedItem());
+        buku.setmJudulAbdulloh(txtJudul.getText());
+        buku.setmPenulisAbdulloh(txtPenulis.getText());
+        buku.setmPenerbitAbdulloh(txtPenerbit.getText());
+        buku.saveAbdulloh();
+        txtIdBuku.setText(Integer.toString(buku.getmIdbukuAbdulloh()));
+        tampilkanDataAbdulloh();
+    }                                         
+
+    private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        DefaultTableModel model = (DefaultTableModel)tblBuku.getModel();
+        int row = tblBuku.getSelectedRow();
+        
+        Buku1841720209Abdulloh buku = new Buku1841720209Abdulloh().getByIdAbdulloh(Integer.parseInt(model.getValueAt(row, 0).toString()));
+        buku.deleteAbdulloh();
+        kosongkanFormAbdulloh();
+        tampilkanDataAbdulloh();
+    }                                        
+
+    private void btnTambahBaruActionPerformed(java.awt.event.ActionEvent evt) {                                              
+        kosongkanFormAbdulloh();
+    }                                             
+
+    private void btnCariActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        cariAbdulloh(txtCari.getText());
+    }                                       
+
+    private void cmbKategoriActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        cmbKategori.setModel(new DefaultComboBoxModel(new Kategori1841720209Abdulloh().getAllAbdulloh().toArray()));
+    }                                           
+
+    private void txtIdBukuActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
 
     /**
      * @param args the command line arguments
